@@ -1,0 +1,6 @@
+{% if user.is_authenticated %}
+<h1>made by crabby devil</h1>
+{% else %}
+<p>to access this page you need to login</p>
+<li><a href="account/login">Login</a></li>
+{% endif %}
